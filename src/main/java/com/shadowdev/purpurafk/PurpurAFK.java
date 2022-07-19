@@ -9,7 +9,7 @@ import com.shadowdev.purpurafk.commands.AFKCommand;
 
 public final class PurpurAFK extends JavaPlugin {
     public final Logger logger = this.getLogger();
-    public PurpurAFK unbMC;
+    public PurpurAFK purpurAfk;
 
     @Override
     public void onEnable() {

@@ -11,8 +11,8 @@ public class AFKCommand implements CommandExecutor {
 
     private final PurpurAFK plugin;
 
-    public AFKCommand(PurpurAFK unbMC) {
-        this.plugin = unbMC;
+    public AFKCommand(PurpurAFK purpurAfk) {
+        this.plugin = purpurAfk;
     }
 
     @Override
