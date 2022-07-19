@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/bukkit-plugin.json": "file:///Users/shadow/Documents/Coding/unbmc/src/main/resources/plugin.yml"
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

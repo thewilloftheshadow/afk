@@ -1,0 +1,18 @@
+name: PurpurAFK
+version: ${project.version}
+main: com.shadowdev.purpurafk.PurpurAFK
+api-version: 1.19
+author: thewilloftheshadow
+depend: []
+load: POSTWORLD
+website: "https://github.com/thewilloftheshadow/purpurafk"
+description: Add a /afk command to hook into Purpur
+commands:
+    balance:
+        usage: /afk
+        description: "Go AFK"
+        permission: purpur.afk
+permissions:
+    purpur.afk:
+        default: true
+        description: Allows the usage of /afk
