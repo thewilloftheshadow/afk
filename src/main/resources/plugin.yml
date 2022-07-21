@@ -8,7 +8,7 @@ load: POSTWORLD
 website: "https://github.com/thewilloftheshadow/purpurafk"
 description: Add a /afk command to hook into Purpur
 commands:
-    balance:
+    afk:
         usage: /afk
         description: "Go AFK"
         permission: purpur.afk

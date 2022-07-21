@@ -13,7 +13,7 @@ public final class PurpurAFK extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("balance").setExecutor(new AFKCommand(this));
+        getCommand("afk").setExecutor(new AFKCommand(this));
 
     }
 
