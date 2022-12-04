@@ -4,13 +4,13 @@
 
     <groupId>com.shadowdev</groupId>
     <artifactId>purpurafk</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <name>PurpurAFK</name>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -57,10 +57,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.purpurmc.purpur</groupId>
-            <artifactId>purpur-api</artifactId>
-            <version>1.19-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
+			<groupId>org.purpurmc.purpur</groupId>
+			<artifactId>purpur-api</artifactId>
+			<version>1.19.2-R0.1-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
     </dependencies>
 </project>
