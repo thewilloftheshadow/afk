@@ -14,13 +14,10 @@ public final class PurpurAFK extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("afk").setExecutor(new AFKCommand(this));
-
     }
 
     @Override
     public void onDisable() {
         logger.info("PurpurAFK has been disabled.");
-        Bukkit.getScheduler().cancelTasks(this);
     }
-
 }
